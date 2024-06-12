@@ -1,0 +1,39 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Center the navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style each list item */
+nav ul li {
+    margin: 0 15px;
+}
+
+/* Style the links */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Add hover effect to the links */
+nav ul li a:hover {
+    color: #ff6347; /* Change color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
